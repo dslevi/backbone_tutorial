@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>backbone test</title>
+</head>
+<body>
+	<form id="project-form">
+		ID: <input id="ID" class="project-form-input" type="text" name="ID"><br>
+		Customer: <input id="customer" class="project-form-input" type="text" name="customer"><br>
+		Lat: <input id="lat" class="project-form-input" type="text" name="lat"><br>
+		Long: <input id="long" class="project-form-input" type="text" name="long"><br>
+		<button id="submit" class="project-form-input" type="button" name="submit" onclick="app.saveForm()">Submit</button>
+	</form>
+	
+	<script src="browser-dependencies/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="browser-dependencies/underscore.js" type="text/javascript"></script>
+	<script src="browser-dependencies/backbone.js" type="text/javascript"></script>
+	<script src="js/models/model.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
